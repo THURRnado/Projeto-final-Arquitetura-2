@@ -28,8 +28,7 @@ def executar_programa():
             for linha in linhas:
                 file_out.write(linha + "\n")
             
-            # Ajuste de espaçamento específico exigido nos arquivos de exemplo
-            file_out.write("101110001000000000111\n\n") 
+            file_out.write("\n") 
             
             file_out.write("=====================================================\n")
             file_out.write("> Initial register states\n")
